@@ -15,7 +15,7 @@ driedsPlants[2] = new Dried("Сухой корм для животных", 5);
 driedsPlants[3] = new Dried("Сухой корм для рыб", 1);
 
 
-string[] freshPlant = new string[] { "Трава", "Мяско", "Овощи", "Насекомые" };
+string[] freshPlant = new string[] { "Трава", "Мясо", "Овощи", "Насекомые" };
 int[] freshPlantSize = new int[] { 2, 5, 3, 1 };
 Fresh[] freshPlants = new Fresh[freshPlant.Length];
 for (int i = 0; i < freshPlants.Length; i++)
