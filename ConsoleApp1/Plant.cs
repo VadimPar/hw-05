@@ -25,10 +25,8 @@ namespace ConsoleApp1
         new public int size;
 
         public Fresh() { name = "Unknown"; size = 0; }
-        public Fresh(string name, int size)
+        public Fresh(string name, int size) : base(name, size)
         {
-            this.name = name;
-            this.size = size;
         }
     }
 
