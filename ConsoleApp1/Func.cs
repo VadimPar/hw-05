@@ -55,7 +55,7 @@ namespace func
             arr = newArr;
         }
 
-        public static void showAll(ref Fish[] arrfish, ref Insects[] arrInsects, ref Animal[] arrAnimal)
+        public static void showAll(Fish[] arrfish, Insects[] arrInsects, Animal[] arrAnimal)
         {
             Console.WriteLine("1.Рыбы: ");
             for (int i = 0; i < arrfish.Length; i++)
